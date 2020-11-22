@@ -2,8 +2,8 @@
   hosts: sw
   tasks:
     - name: NCLU
+      register: output
       community.network.nclu:
-        register: output
         commands:
           - show version
           - show interface
