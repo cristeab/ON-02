@@ -8,3 +8,7 @@
           - show version
           - show interface
 
+    - name: Print Interface Details
+      ansible.builtin.debug:
+        var: output["msg"]
+
