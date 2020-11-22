@@ -3,6 +3,7 @@
   tasks:
     - name: NCLU
       community.network.nclu:
+        register: output
         commands:
           - show version
           - show interface
