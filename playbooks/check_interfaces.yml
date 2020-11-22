@@ -1,0 +1,7 @@
+- name: Check switch network interfaces
+    hosts: sw
+    community.network.nclu:
+      commands:
+        - show version
+        - show interfaces
+
