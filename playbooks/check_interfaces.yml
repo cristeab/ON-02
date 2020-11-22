@@ -5,5 +5,5 @@
       community.network.nclu:
         commands:
           - show version
-          - show interfaces
+          - show interface
 
