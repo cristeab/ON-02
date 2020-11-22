@@ -1,9 +1,9 @@
 - name: Check switch network interfaces
-    hosts: sw
-    tasks:
-      - name: NCLU
-        community.network.nclu:
-          commands:
-            - show version
-            - show interfaces
+  hosts: sw
+  tasks:
+    - name: NCLU
+      community.network.nclu:
+        commands:
+          - show version
+          - show interfaces
 
